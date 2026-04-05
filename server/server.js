@@ -19,13 +19,7 @@ function isLocalDevOrigin(origin) {
 
 // Middleware
 app.use(cors({
-    origin: (origin, callback) => {
-        if (!origin || allowedOrigins.includes(origin) || isLocalDevOrigin(origin)) {
-            return callback(null, true);
-        }
-
-        return callback(new Error(`CORS blocked for origin: ${origin}`));
-    },
+    origin: true,
     credentials: true
 }));
 app.use(express.json());

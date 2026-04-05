@@ -2,6 +2,7 @@
  * Auto-create database and tables on first run
  */
 
+require('dotenv').config();
 const mysql = require('mysql2/promise');
 
 const DB_NAME = process.env.DB_NAME || 'health_monitoring_system';
@@ -155,7 +156,10 @@ async function setupDatabase() {
 if (require.main === module) {
     setupDatabase()
         .then(() => process.exit(0))
-        .catch(() => process.exit(1));
+        .catch((err) => {
+            console.error('🚨 Fatal Error:', err.message);
+            process.exit(1);
+        });
 }
 
 module.exports = { setupDatabase };
