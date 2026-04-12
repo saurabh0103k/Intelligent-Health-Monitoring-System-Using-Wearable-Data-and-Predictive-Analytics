@@ -65,3 +65,8 @@ Future enhancements to this project will potentially include incorporating live 
 2. UCI Machine Learning Repository. (1988). *Heart Disease Data Set*.
 3. Detrano, R., et al. (1989). *International application of a new probability algorithm for the diagnosis of coronary artery disease*. The American Journal of Cardiology, 64(5), 304-310.
 4. Pedregosa, F., et al. (2011). *Scikit-learn: Machine Learning in Python*. Journal of Machine Learning Research, 12, 2825-2830.
+5. Ali, M. M., et al. (2021). *An intelligent healthcare monitoring framework using wearable sensors and machine learning*. IEEE Access, 9, 22021-22039.
+6. Kumar, P. M., & Gandhi, U. D. (2018). *A novel three-tier Internet of Things architecture with machine learning algorithm for early detection of heart diseases*. Computers & Electrical Engineering, 65, 222-235.
+7. Alotaibi, F. S. (2019). *Implementation of machine learning model to predict heart failure disease*. International Journal of Advanced Computer Science and Applications, 10(6), 261-268.
+8. Ghosh, P., et al. (2021). *Efficient prediction of cardiovascular disease using machine learning algorithms with relief and lasso feature selection techniques*. IEEE Access, 9, 19304-19326.
+9. Islam, M. S., et al. (2020). *Machine learning integration in a microservice-based architecture for IoT healthcare monitoring*. Journal of Biomedical Informatics, 112, 103624.
